@@ -1,0 +1,57 @@
+.section_categorias {
+    padding: 3rem 0 1rem;
+}
+
+.section_categorias h2 {
+    font-family: "Cal Sans", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #1A1A1A;
+    padding-bottom: 2rem;
+}
+
+.card_container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.card {
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgb(0 0 0);
+    background-color: #F5F0F0;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.img_card {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+h3 {
+    font-family: "Cal Sans", sans-serif; 
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: #1A1A1A;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+.card p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-style: italic;
+    padding: 0.4rem 0.5rem;
+    max-width: 20rem;
+}

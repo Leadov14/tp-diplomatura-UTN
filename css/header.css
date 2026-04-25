@@ -1,0 +1,38 @@
+header {
+    background-color: #363432;
+    color: beige;
+    border-bottom: 5px solid #C5A059;
+}
+
+.logo {
+    font-family: "Ephesis", cursive;
+    font-size: 3.5rem;
+}
+
+.barra_navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 9rem;
+    padding-right: 18rem;
+}
+
+.barra_navegacion ul {
+    display: flex;
+    list-style: none;
+}
+
+.barra_navegacion ul li {
+    padding: 0 2rem;
+}
+
+.barra_navegacion ul li a {
+    text-decoration: none;
+    color: beige;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.barra_navegacion ul li a:hover {
+    color: #C5A059;
+}

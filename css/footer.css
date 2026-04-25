@@ -1,0 +1,48 @@
+footer {
+    background-color: #363432;
+    padding: 0.8rem 0;
+}
+
+.redes {
+    font-family: "Cal Sans", sans-serif;
+    text-align: center;
+    font-size: 1rem; 
+    color: beige;
+}
+
+i {
+    color: beige;
+    transition: transform 0.4s;
+}
+
+i:hover {
+    transform: translateY(-3px);
+}
+
+.nav_footer {
+    padding: 0.5rem 0;
+}
+
+.nav_footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 4rem;
+}
+
+.nav_footer ul li a {
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1rem;
+    color: beige;
+}
+
+.nav_footer ul li a:hover {
+    color: #C5A059;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.7rem;
+    color: beige;
+}
