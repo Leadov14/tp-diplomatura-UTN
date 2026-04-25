@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Dovale J&R</title>
+</head>
+<body>
+    <header>
+        <nav class="barra_navegacion">
+            <div class="logo">Dovale</div>
+            <ul>
+                <li><a href="#home">INICIO</a></li>
+                <li><a href="#categorias">CATEGORIAS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section_home">
+            <img src="img/banner.png" alt="banner" class="img_banner">
+            <div class="home_descripcion">
+                <p>
+                En nuestro taller nos encargamos de que tus piezas favoritas vuelvan a lucir como nuevas. 
+                Si tu reloj se detuvo o necesita un cristal nuevo, <span>realizamos cambios de pilas y vidrios en el momento, además de reparaciones integrales de maquinaria.</span> 
+                También trabajamos con la delicadeza que tus joyas merecen, realizando <span>soldaduras en oro y plata, colocación de piedras, grabados personalizados y restauraciones.</span>
+                </p>
+            </div>
+        </section>
+
+        <section id="categorias" class="section_categorias">
+            <h2>Categorias</h2>
+            <div class="card_container">
+                <article class="card">
+                    <img src="img/card-relojeria.png" alt="relojeria" class="img_card">
+                    <h3>RELOJERIA</h3>
+                    <p>Ese toque que le falta a tu muñeca para completar cualquier look.</p>
+                </article>
+
+                <article class="card">
+                    <img src="img/card-plata.png" alt="joyeria-plata" class="img_card">
+                    <h3>PLATA 925</h3>
+                    <p>Accesorios livianos y modernos para usar en toda ocasión.</p>
+                </article>
+
+                <article class="card">
+                    <img src="img/card-oro.jpg" alt="joyeria-oro" class="img_card">
+                    <h3>ORO 18KTS</h3>
+                    <p>Un gusto que te das una vez y te dura para siempre. Puro brillo.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section_destacados">
+            <h2>Productos destacados</h2>
+            <div class="destacados_container">
+                <article><img src="img/destacados/casio mujer.webp"  alt="casio de dama"></article>
+                <article><img src="img/destacados/anillo.webp" alt="anillo de plata"></article>
+                <article><img src="img/destacados/pulser plata.webp" alt="pulsera de plata"></article>
+                <article><img src="img/destacados/swatch azul.webp" alt="reloj swatch azul"></article>
+                <article><img src="img/destacados/collar c-corazon.webp" alt="collar de plata"></article>
+                <article><img src="img/destacados/anillo infinito oro.webp"  alt="anillo de oro con infinito"></article>
+                <article><img src="img/destacados/conj pulseras-p.webp" alt="conjunto de pulseras similares"></article>
+                <article><img src="img/destacados/mano fatima.webp" alt="dije mano fatima"></article>
+                <article><img src="img/destacados/collar swarosky.webp" alt="collar swarosky"></article>
+                <article><img src="img/destacados/pulsera oro p-grabar.webp" alt="pulsera de oro para grabar"></article>
+            </div>
+        </section>
+
+        <section id="contacto" class="section_contacto">
+            <h2>Contactanos</h2>
+            <form>
+                <div class="form_group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div> 
+                    
+                <div class="form_group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="tel">Teléfono:</label>
+                    <input type="number" id="tel" name="tel" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="motivo">Motivo</label>
+                    <select name="motivo" id="motivo" required>
+                        <option value="" disabled selected>Seleccione el motivo de su consulta</option>
+                        <option value="compra">Compra de un producto</option>
+                        <option value="relojeria">Reparación de relojeria</option>
+                        <option value="joyeria">Reparación de joyeria</option>
+                        <option value="joyeria">Grabados personalizados</option>
+                    </select>
+                </div>
+
+                <div class="form_group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                
+                <div class="form_button">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Cancel</button>
+                </div>             
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="redes">Seguinos en nuestras redes: 
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a> - 
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </p>
+        <nav class="nav_footer">
+            <ul>
+                <li><a href="#home">INICIO</a></li>
+                <li><a href="#categorias">CATEGORIAS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 DOVALE Joyeria & Relojeria</p>
+    </footer>
+</body>
+</html>
